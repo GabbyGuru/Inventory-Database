@@ -12,7 +12,7 @@ A python base CLI applicatioon to manage a local inventory database it handles p
 *python.3.x
 *MYSQL / MariaDB 
 
-### Installation 
+### Installation (bash)
 
 *Install mysql / mariadb
     
@@ -22,9 +22,9 @@ Start the MariaDB service
     
     sudo systemctl enable mariadb
 
-*Sign into maraidb 
-  
-  sudo mysql -u root -p 
+Sign into maraidb 
+    
+    sudo mysql -u root -p 
 
  -u flag = Specifies the username (default is root)
  -p flag = prompt your database root password (or kali-linux password) 
@@ -34,7 +34,7 @@ Start the MariaDB service
 
   CREATE DATABASE inventory_db;
 
- # once the table is created- switch over to the databse to then create the table 
+ # Switch over to the database to then create the table 
 
    USE inventory_db;
 
