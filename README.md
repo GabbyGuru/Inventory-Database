@@ -1,6 +1,15 @@
 # Inventory-Database
 A  relational database designed to track user transactions, customer infomation, and purchase orders.
 
+#Key Features 
+*Comprehensive Relational Schema:
+  Built on a structured MariaDB relational database consisting of six core tables.
+  tables: tires, suppliers, users, inventory_transactins, purchase_orders, po_items. 
+
+  *Traceable Transaction History:
+  Log every stock movement within the database. With the use of inventory_transaction table. 
+
+
 #Database Shcema
 **tires table: 
   MariaDB [inventory_db]> describe tires;
