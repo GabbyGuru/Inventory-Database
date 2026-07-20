@@ -1,6 +1,14 @@
-# Inventory-Database
+# Inventory Database 
 
-#Database Shcema
+
+ #Database creation 
+  
+  
+  
+  
+  
+  
+  #Database Shcema
 **tires table: 
   MariaDB [inventory_db]> describe tires;
 +-------------------+---------------+------+-----+---------+-------+
