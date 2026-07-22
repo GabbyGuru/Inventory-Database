@@ -45,22 +45,36 @@ Sign into maraidb
    ### follow to shcema.sql file in the repository to learn the attrubutes, column,data types required for the tables 
 
 ## python installation 
- * create a directory for your pythin install. if you install it on your regular kali- linux termal you can break yoour machone. So you create a directory and then a virtual envinment to isolate the install and dont break anything. for this purpose we will download oython in a sandbox 
-   sudo mkdir inventory_project
+ 
+* create a directory for your pythin install. if you install it on your regular kali- linux termal you can break yoour machone. So you create a directory and then a virtual envinment to isolate the install and dont break anything. for this purpose we will download oython in a sandbox 
+
+        sudo mkdir inventory_project
 
 # if you do not want to use sudo for the directory or it sill will not install - change permissions from root to the user 
-    
-   cd inventtory_project
-   pip install python 3
+# update system first 
+   
+   *cd inventtory_project
+       
+       sudo apt install python3 python3-venv python3 pip
 
    * create the sandbox
-     python -m venv venv
+
+    python -m venv venv
      - the second venv = the name of the sandbox
     
     * start the sandbox
       source venv/bin/activate
 
-      # while in the sandbox pip install the env for hidden files ( for passwords and API keys)
-      pip install  python dotenv
+# while in the sandbox pip install the env for hidden files ( for passwords and API keys)
+      pip install  python-dotenv
+
+* to hide the filee use keywords in the python script 
+
+       import os
+      from dotenv omport_dotenv
+
+  # load varibales from .env files 
+
+        load_dotenv 
 
       
