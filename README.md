@@ -66,7 +66,7 @@ Sign into maraidb
       source venv/bin/activate
 
 # while in the sandbox pip install the env for hidden files ( for passwords and API keys)
-      pip install  python-dotenv
+      pip install python-dotenv
 
 * to hide the filee use keywords in the python script 
 
