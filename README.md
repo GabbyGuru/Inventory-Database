@@ -26,8 +26,8 @@ Sign into maraidb
     
     sudo mysql -u root -p 
 
- -u flag = Specifies the username (default is root)
- -p flag = prompt your database root password (or kali-linux password) 
+-  -u flag = Specifies the username (default is root)
+ - -p flag = prompt your database root password (or kali-linux password) 
 
   
   ## Database Setup  
