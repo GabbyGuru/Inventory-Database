@@ -44,20 +44,20 @@ Sign into maraidb
 
    ### follow to shcema.sql file in the repository to learn the attrubutes, column,data types required for the tables 
 
-## python installation 
+## Python installation 
  
 * create a directory for your pythin install. if you install it on your regular kali- linux termal you can break yoour machone. So you create a directory and then a virtual envinment to isolate the install and dont break anything. for this purpose we will download oython in a sandbox 
 
         sudo mkdir inventory_project
 
-# if you do not want to use sudo for the directory or it sill will not install - change permissions from root to the user 
+# If you do not want to use sudo for the directory or it sill will not install - change permissions from root to the user 
 # update system first 
    
-   *cd inventtory_project
+   *cd inventory_project
        
        sudo apt install python3 python3-venv python3 pip
 
-   * create the sandbox
+   * Create the sandbox
 
     python -m venv venv
      - the second venv = the name of the sandbox
@@ -65,16 +65,32 @@ Sign into maraidb
     * start the sandbox
       source venv/bin/activate
 
-# while in the sandbox pip install the env for hidden files ( for passwords and API keys)
+# While in the sandbox pip install the env for hidden files ( for passwords and API keys)
       pip install python-dotenv
 
-* to hide the filee use keywords in the python script 
+* To hide the file use modeule  in the python script 
 
        import os
       from dotenv omport_dotenv
 
-  # load varibales from .env files 
+  # Load varibales from .env files 
 
-        load_dotenv 
+        load_dotenv
+
+  ## Create the python class and connect to the database 
+
+      class InventoryAPI:
+      def __init__(self):
+          self.connection = None
+          self.connection = None
+
+  ## To hide the passwords in the code use these syntax
+
+      host=os.getenv("DB_HOST")
+      user=os.getenv("GB_PASSWROD")
+      password=os.getenv("DB_PASSWORD")
+  
+
+      
 
       
