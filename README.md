@@ -67,8 +67,9 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 
         sudo mkdir inventory_project
 
+---
 # If you do not want to use sudo for the directory or it sill will not install - change permissions from root to the user, update system first 
-
+---
    
    ### 2. cd inventory_project
        
