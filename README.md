@@ -1,6 +1,6 @@
 inventory_db (Inventory Database Manager)
 
-A python base CLI applicatioon to manage a local inventory database. It handles product tracking, stcok updates, and basic reporting.
+A python base CLI application to manage a local inventory database. It handles product tracking, stock updates, and basic reporting.
 
 ## Features
 
@@ -14,7 +14,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 
 ### prerequisites
 *Kali-Linux 
-*python.3.x
+*python3.x
 *MYSQL / MariaDB 
 
 ---
@@ -62,12 +62,12 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 
 ### Python installation 
  
-### 1. create a directory for your python install. If you install it on your regular kali- linux termainal you can break your machine. So you create a directory and then a virtual environment to isolate the install and do not break anything. For this purpose we will download python in a sandbox 
+### 1. create a directory for your python install. If you install it on your regular kali- linux terminal you can break your machine. So you create a directory and then a virtual environment to isolate the install and do not break anything. For this purpose we will download python in a sandbox 
 
         sudo mkdir inventory_project
 
 ---
-### If you do not want to use sudo for the directory or it sill will not install - change permissions from root to the user, update system first 
+### If you do not want to use sudo for the directory or it still will not install - change permissions from root to the user, update system first 
 ---
    
    ### 2. cd inventory_project
@@ -88,14 +88,14 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
      
       pip install python-dotenv
 
-### 6. To hide the file use modeule in the python script 
+### 6. To hide the file use module in the python script 
 
        import os
       from dotenv import_dotenv
 
-  ### 7. Load varibales from .env files 
+  ### 7. Load variables from .env files 
 
-        load_dotenv
+        load_dotenv()
 
   ### 8. Create the python class and connect to the database 
 
@@ -107,7 +107,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
   ### 9. To hide the passwords in the code use these syntax
 
       host=os.getenv("DB_HOST")
-      user=os.getenv("GB_USER")
+      user=os.getenv("DB_USER")
       password=os.getenv("DB_PASSWORD")
   
 
