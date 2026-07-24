@@ -93,7 +93,7 @@ A python base CLI application to manage a local inventory database. It handles p
 ### 6. To hide the file use module in the python script 
 
        import os
-      from dotenv import_dotenv
+      from dotenv load import_dotenv
 
   ### 7. Load variables from .env files 
 
