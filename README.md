@@ -102,7 +102,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
       class InventoryAPI:
       def __init__(self):
           self.connection = None
-          self.coursor = None
+          self.cursor = None
 
   ### 9. To hide the passwords in the code use these syntax
 
