@@ -10,21 +10,23 @@ A python base CLI application to manage a local inventory database. It handles p
 
 ---
 
-## Getting Starting
+## Getting Started
 
 ### prerequisites
-*Kali-Linux 
-*python3.x
-*MYSQL / MariaDB 
+* Kali Linux 
+* python 3.x
+* MYSQL / MariaDB 
 
 ---
 
 ## Installation
 
 ### 1. Install MYSQL / Mariadb
-
+'''bash
+    
     sudo apt update 
     sudo apt install mariadb-server mariadb-client
+
 
 ### 2. Start the MariaDB service
     
