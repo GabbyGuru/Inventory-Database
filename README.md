@@ -1,11 +1,13 @@
 inventory_db (Inventory Database Manager)
 
-A python base CLI applicatioon to manage a local inventory database it handles product tracking, stcok updates, and basic resporting.
+A python base CLI applicatioon to manage a local inventory database. It handles product tracking, stcok updates, and basic resporting.
 
 ## Features
 * **Automation Mariadb database setup** and schema creation
-* **FULL CRUD operation (create, Read, Update, Delete) for inventory tracking
-*low stock alert triggers
+* **FULL CRUD operation** (create, Read, Update, Delete) for inventory tracking
+* **low stock alert triggers**
+
+---
 
 ## Getting Starting
 ###prequisites
