@@ -13,7 +13,6 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 ## Getting Starting
 
 ### prerequisites
-
 *Kali-Linux 
 *python.3.x
 *MYSQL / MariaDB 
@@ -23,7 +22,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 ## Installation
 
 ### 1. Install MYSQL / Mariadb
-    '''bash
+
     sudo apt update 
     sudo apt install mariadb-server mariadb-client
 
@@ -63,7 +62,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 
 ### Python installation 
  
-### 1. create a directory for your python install. If you install it on your regular kali- linux termainal you can break yoour machine. So you create a directory and then a virtual envirnoment to isolate the install and do not break anything. For this purpose we will download python in a sandbox 
+### 1. create a directory for your python install. If you install it on your regular kali- linux termainal you can break your machine. So you create a directory and then a virtual environment to isolate the install and do not break anything. For this purpose we will download python in a sandbox 
 
         sudo mkdir inventory_project
 
@@ -78,13 +77,14 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 ### 3. Create the sandbox
 
     python -m venv venv
-     - the second venv = the name of the sandbox
+    
+- -the second venv = the name of the sandbox
     
 ### 4. start the sandbox
       
       source venv/bin/activate
 
-### 5.  Install python-dotenv to sercurley store database credentails and API keys without hard coding them into your script 
+### 5.  Install python-dotenv to securely store database credentials and API keys without hard coding them into your script 
      
       pip install python-dotenv
 
@@ -107,7 +107,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
   ### 9. To hide the passwords in the code use these syntax
 
       host=os.getenv("DB_HOST")
-      user=os.getenv("GB_PASSWORD")
+      user=os.getenv("GB_USER")
       password=os.getenv("DB_PASSWORD")
   
 
