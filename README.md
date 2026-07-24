@@ -38,6 +38,7 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
  -  -u flag = Specifies the username (default is root)
 -  -p flag = prompt your database root password (or kali-linux password) 
 
+---
   
   ### Database Setup 
 
@@ -56,6 +57,9 @@ A python base CLI applicatioon to manage a local inventory database. It handles 
 
 
    ### follow to schema.sql file in the repository to learn the attributes, column,data types required for the tables 
+
+
+---
 
 ### Python installation 
  
