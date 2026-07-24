@@ -80,7 +80,7 @@ A python base CLI application to manage a local inventory database. It handles p
 
     python -m venv venv
     
-- -the second venv = the name of the sandbox
+* The second venv = the name of the sandbox
     
 ### 4. start the sandbox
       
@@ -93,7 +93,7 @@ A python base CLI application to manage a local inventory database. It handles p
 ### 6. To hide the file use module in the python script 
 
        import os
-      from dotenv load import_dotenv
+      from dotenv limport load_dotenv
 
   ### 7. Load variables from .env files 
 
